@@ -1,38 +1,229 @@
-.App {
-  text-align: center;
+body {
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  
+.appbar-brand {
+   color: #CE9F41;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  
+.centered-text {
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Optional: add some margin */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+.text-center {
+    text-align: center; /* Center the h5 text */
 }
-
-.App-link {
-  color: #61dafb;
+  
+.peanuts-image {
+    max-width: 100%;
+    height: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
+.card {
+    background: #CE9F41;
+    width: 200px;
+    max-width: 300px;
+    height: 150px;
+    border-radius: 40px 40px;
+}
+  
+.btn btn-primary {
+   background: #D9D9D9;
+   border: none
+}
+  
+.card-body {
+    text-align: center;
+}
+  
+.nav-item-text {
+    display: block;
+    margin-top: 4px;
+    text-align: center;
+}
+  
+.app-container-fluid {
+    padding: 0 1rem; /* Add some padding to the container */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+.bi-chevron-down {
+    margin-left: 250px; /* Push the icon to the right */
+}
+  
+.button-center {
+    text-align: center; /* Center the button horizontally */
+}
+  
+.btn-lg {
+    padding: 1rem 2rem; /* Increase the padding to make the button bigger */ 
+    font-size: 1rem; /* Increase the font size to make the button bigger */
+    border-radius: 20px;
+}
+  
+.hi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
+.tasks-bar {
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+}
+  
+.bottom-navbar-brand {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.bottom-container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  
+.Invites-header {
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+.mega-phone {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    transform: rotate(190deg);
+}
+  
+.invite-text {
+    font-size: 35px;
+    text-align: center;
+}
+  
+.card-point-earned {
+    background: #AA910C;
+    width: 100%;
+    height: 210px;
+    
+    gap: 0px;
+    border-radius: 20px 20px;
+    margin: 20px;
+}
+  
+.card-body-point-earned-text {
+    text-align: left;
+    margin-left: 20px;
+    color: #000000;
+}
+  
+.point-earned {
+    margin: 30px;
+}
+  
+  
+  
+.points-number {
+    font-size: 2rem;
+    margin: 0;
+}
+  
+  
+  
+.card-friends-referrals {
+    background: #FFFFFF;
+    width: 100%;
+    height: 170px;
+    top: 0px;
+    left: 0px;
+    gap: 0px;
+    border-radius: 20px 20px;
+    margin: 20px;
+}
+  
+.card-titles {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    color: black;
+}
+  
+.card-text-friends-referrals {
+    color: #00000080;
+  
+}
+  
+.btn-invite {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 250px;
+}
+  
+.question-mark {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+  
+.search-user {
+    width: 20px;
+    height: 20px;
+}
+  
+.tasks-card {
+    background: #FFFFFF;
+    width: 200px;
+    max-width: 300px;
+    height: 125px;
+    border-radius: 40px 40px;
+    margin-left: 10px;
+    color:#000000;
+    margin-bottom: 10px;
+}
+  
+.tasks-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+  
+.tasks-card-title {
+    text-align: left;
+   
+}
+  
+.card-point {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 10px;
 }
